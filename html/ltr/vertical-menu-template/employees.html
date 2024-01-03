@@ -35,7 +35,7 @@
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css"> -->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/bordered-layout.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
 
@@ -50,8 +50,14 @@
     <!-- END: Custom CSS-->
 
     <style>
-        ::-webkit-scrollbar {
-            width: 0;
+        .progress {
+            display: flex;
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        .progress-bar {
+            flex-grow: 1;
         }
     </style>
 
@@ -60,7 +66,7 @@
 
 <!-- BEGIN: Body-->
 
-<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static" data-open="click"
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click"
     data-menu="vertical-menu-modern" data-col="">
 
     <!-- BEGIN: Header-->
@@ -94,22 +100,24 @@
 
             <ul class="nav navbar-nav align-items-center">
                 <li class="nav-item nav-search ">
-                    <a href="home.html" class="nav-link nav-link-style">Home</a>
+                    <a class="nav-link nav-link-style">Home</a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="my__Info.html" class="nav-link nav-link-style "> My Info</a>
+                    <a class="nav-link nav-link-style "> My Info</a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="people.html" class="nav-link nav-link-style"> People</a>
+                    <a class="nav-link nav-link-style ">
+                        People</a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="home__hiring.html" class="nav-link nav-link-style"> Hiring </a>
+                    <a class="nav-link nav-link-style">
+                        Hiring </a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="homeReports.html" class="nav-link nav-link-style"> Reports </a>
+                    <a class="nav-link nav-link-style"> Reports </a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="home__files.html" class="nav-link nav-link-style"> Files</a>
+                    <a class="nav-link nav-link-style"> Files</a>
                 </li>
             </ul>
         </div>
@@ -277,8 +285,7 @@
                         <div class="margin__left__10px" style="width: 180px;">
                             <input type="email" class="form-control" id="" placeholder="Filter by Name">
                         </div>
-                        <div style="width: 180px; border: 1px solid #697077; padding: 0.5rem;"
-                            class="bg-white EditEmployeeData">
+                        <div style="width: 180px; border: 1px solid #697077; padding: 0.5rem;" class="bg-white">
                             <img src="../../../app-assets/images/Group 14.png" alt="">
                             <span class="margin__left__10px">Add an Employee</span>
                         </div>
@@ -347,148 +354,6 @@
 
             </section>
 
-            <section class="px-3 pt-2 pb-3 add__employee__details__box modal__display__none">
-
-                <div class="flex__end" style="transform: translateY(1.4rem);">
-                    <img class="CancelModal cursor-pointer" src="../../../app-assets/images/cancel__blue__big.png"
-                        alt="">
-                </div>
-                <div class="text-center mb-2">
-                    <h1 class="color__blackish" style="font-weight: 700;">Employees</h1>
-                </div>
-
-                <article class="px-2 pt-2 pb-1">
-                    <div class="flex__between">
-                        <div class="flex__align">
-                            <img src="../../../app-assets/images/contact__person.png" alt="">
-                            <h3 class="margin__left__10px margin__top__5px color__blackish font700"
-                                style="font-size: 20px;">Name and Contact</h3>
-                        </div>
-                        <div class="flex__align">
-                            <div class="employee__icons__box">
-                                <img src="../../../app-assets/images/contact__person.png" alt="">
-                            </div>
-                            <div class="employee__icons__box">
-                                <img src="../../../app-assets/images/location__md.png" alt="">
-                            </div>
-                            <div class="employee__icons__box">
-                                <img src="../../../app-assets/images/transparent__pen.png" alt="">
-                            </div>
-                            <div class="employee__icons__box">
-                                <img src="../../../app-assets/images/newspaper__small.png" alt="">
-                            </div>
-                            <div class="employee__icons__box">
-                                <img src="../../../app-assets/images/minus__lg.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <form class="row pt-2 margin__left__10px">
-                        <div class="col-md-3 mb-2">
-                            <label for="" class="form-label">Title</label>
-                            <input type="text" class="form-control" id="">
-                        </div>
-                        <div class="col-md-4 mb-2">
-                            <label for="" class="form-label">First Name *</label>
-                            <input type="text" class="form-control" id="">
-                        </div>
-                        <div class="col-md-5 mb-2">
-                            <label for="" class="form-label">Last Name *</label>
-                            <input type="text" class="form-control" id="">
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="dropdown margin__top__5px" style="margin-top: 2px;">
-                                <label for="" class="form-label">Employee Display Name *</label>
-                                <button style="width: 100%; height: 35px;"
-                                    class="drop_btn d-flex justify-content-between align-items-center pr-0">
-                                    <span></span>
-                                    <div class="">
-                                        <div class="drop__down_icon"
-                                            style="padding: 5.2px 8px; background-color: #E5E5E5; border: 1px solid #E5E5E5;">
-                                            <img src="../../../app-assets/images/dropdown-icon.png" alt="">
-                                        </div>
-                                    </div>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <label for="" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="">
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <label for="" class="form-label">Phone Number</label>
-                            <input type="number" class="form-control" id="">
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <label for="" class="form-label">Mobile Number</label>
-                            <input type="number" class="form-control" id="">
-                        </div>
-                    </form>
-                </article>
-                <br>
-                <br>
-                <article class="px-2 pt-2 pb-1">
-                    <div class="flex__between">
-                        <div class="flex__align">
-                            <img src="../../../app-assets/images/location__md.png" alt="">
-                            <h3 class="margin__left__10px margin__top__5px color__blackish font700"
-                                style="font-size: 20px;">Address</h3>
-                        </div>
-                        <div>
-                            <img src="../../../app-assets/images/updown__greyish.png" alt="">
-                        </div>
-                    </div>
-                    <form class="row pt-3 margin__left__10px">
-                        <div class="col-md-6 mb-1">
-                            <label for="" class="form-label">Street Address 1</label>
-                            <input type="text" class="form-control" id="">
-                            <div class="mt-1 flex__align">
-                                <img src="../../../app-assets/images/greyish__dropdown__big.png" alt="">
-                                <span class="font14__colorBlueish margin__left__5px">Add Lines</span>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <label for="" class="form-label">Street Address 2</label>
-                            <input type="text" class="form-control" id="">
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <label for="" class="form-label">City</label>
-                            <input type="text" class="form-control" id="">
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <label for="" class="form-label">Province</label>
-                            <input type="text" class="form-control" id="">
-                        </div>
-                        <div class="col-md-6 mb-1">
-                            <label for="" class="form-label">Postal Code</label>
-                            <input type="number" class="form-control" id="">
-                            <div class="mt-1">
-                                <a href="" class="font14__colorBlueish" style="text-decoration: underline;">Preview
-                                    Address</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="dropdown" style="margin-top: 2px;">
-                                <label for="" class="form-label">Country</label>
-                                <button style="width: 100%; height: 35px;"
-                                    class="drop_btn d-flex justify-content-between align-items-center pr-0">
-                                    <span></span>
-                                    <div class="">
-                                        <div class="drop__down_icon"
-                                            style="padding: 5.2px 8px; background-color: #E5E5E5; border: 1px solid #E5E5E5;">
-                                            <img src="../../../app-assets/images/dropdown-icon.png" alt="">
-                                        </div>
-                                    </div>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </article>
-
-                <div class="flex__end mt-2">
-                    <button class="create__approval__btn">Save</button>
-                </div>
-
-            </section>
 
         </main>
     </div>
@@ -541,7 +406,6 @@
 
     <!-- BEGIN: Page JS-->
     <script src="../../../app-assets/js/scripts/tables/table-datatables-basic.js"></script>
-    <script src="../../../app-assets/js/scripts/modal/modal.js"></script>
     <!-- END: Page JS-->
 
     <script>

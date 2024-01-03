@@ -35,7 +35,7 @@
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css"> -->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/bordered-layout.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
 
@@ -100,22 +100,24 @@
 
             <ul class="nav navbar-nav align-items-center">
                 <li class="nav-item nav-search ">
-                    <a href="home.html" class="nav-link nav-link-style">Home</a>
+                    <a class="nav-link nav-link-style">Home</a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="my__Info.html" class="nav-link nav-link-style "> My Info</a>
+                    <a class="nav-link nav-link-style "> My Info</a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="people.html" class="nav-link nav-link-style"> People</a>
+                    <a class="nav-link nav-link-style ">
+                        People</a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="home__hiring.html" class="nav-link nav-link-style"> Hiring </a>
+                    <a class="nav-link nav-link-style">
+                        Hiring </a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="homeReports.html" class="nav-link nav-link-style"> Reports </a>
+                    <a class="nav-link nav-link-style"> Reports </a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="home__files.html" class="nav-link nav-link-style"> Files</a>
+                    <a class="nav-link nav-link-style"> Files</a>
                 </li>
             </ul>
         </div>
@@ -292,7 +294,7 @@
 
                 <section class="mb-2 container margin__left__10px">
 
-                    <section class="flex__between flex-wrap">
+                    <section class="flex__between">
                         <div>
                             <article class="flex__align">
                                 <div class="dropdown">
@@ -324,8 +326,8 @@
                                             </span>
                                             <span>Cc/Bcc</span>
                                         </label>
-                                        <input class="cc_bcc form-control" type="text" name="" id=""
-                                            placeholder="Separate Emails whit a Comma">
+                                        <input style="width: 21vw !important;" class="form-control" type="text" name=""
+                                            id="" placeholder="Separate Emails whit a Comma">
                                     </div>
                                     <div class="form-check margin__left__10px" style="margin-top: 3px;">
                                         <input class="form-check-input" type="checkbox" value="">
@@ -340,7 +342,7 @@
                         </div>
                     </section>
 
-                    <section class="flex__between invoice__flex_w" style="transform: translateY(-3rem);">
+                    <section class="flex__between" style="transform: translateY(-3rem);">
                         <article class="flex__align ">
                             <div class="mt-5">
                                 <label for="" class="form-label">Billing Address</label>
@@ -373,10 +375,10 @@
                                 <input type="email" class="form-control" id="" placeholder="10/10/2023">
                             </div>
                         </article>
-                        <aside style="width: 180px;">
+                        <div style="width: 180px; transform: translateY(-2.4rem);">
                             <label for="" class="form-label">Invoice No.</label>
                             <input type="email" class="form-control" id="" placeholder="1002">
-                        </aside>
+                        </div>
                     </section>
 
                     <section>
@@ -512,26 +514,38 @@
 
                     <br>
                     <section class="mb-3">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <button class="save__btn"
+                                            style="background: transparent; color: #FFFFFF !important;">Cancel</button>
+                                    </th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th class="text-capitalize pt-2">Print or Preview | Make Recurring | Customise</th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th>
+                                        <div class="flex__align margin__left__10px padding__left__5px">
+                                            <button style="background: transparent; color: #FFFFFF !important;"
+                                                class="install__btn margin__right__10px">
+                                                <span>Save</span>
+                                            </button>
+                                            <button class="save__and__send__btn flex__around">
+                                                <span>Save and Send</span>
+                                                <img src="../../../app-assets/images/white__drop__down.png" alt="">
+                                            </button>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </thead>
+                        </table>
 
-                        <section class="mb-3">
-                            <p class="text-center mb-2 color__dark__blue font-weight-bold">Privacy</p>
-                            <div class="jumbotron flex__between p-1" style="background: #042840;">
-                                <button class="save__btn"
-                                    style="background: transparent; color: #FFFFFF !important;">Cancel</button>
-                                <span class="text-capitalize text-white">Print or Preview | Make Recurring |
-                                    Customise</span>
-                                <div class="flex__align margin__left__10px padding__left__5px">
-                                    <button style="background: transparent; color: #FFFFFF !important;"
-                                        class="install__btn margin__right__10px">
-                                        <span>Save</span>
-                                    </button>
-                                    <button class="save__and__send__btn flex__around">
-                                        <span>Save and Send</span>
-                                        <img src="../../../app-assets/images/white__drop__down.png" alt="">
-                                    </button>
-                                </div>
-                            </div>
-                        </section>
                     </section>
 
                 </section>

@@ -91,6 +91,24 @@
     margin-right: 35% !important;
 }
 
+@media screen and (max-width:1200px) {
+    .delete__box {
+        margin-right: 18% !important;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .delete__box {
+        margin-right: 20% !important;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .delete__box {
+        margin-right: 35% !important;
+    }
+}
+
 
 /* page 2  */
 
@@ -639,6 +657,8 @@
 
 
 
+
+
 /* page 2 */
 
 
@@ -913,19 +933,10 @@
     background: #FFFFFF;
     display: flex;
     align-items: center;
-    color: #042840 !important;
+    color: #042840;
     font-weight: bolder !important;
     font-size: 13px;
     padding-left: 1rem;
-    font-weight: bold;
-}
-
-.home__page__pages li a {
-    color: #697077 !important;
-}
-
-.home__page__pages .aca__para a {
-    color: #042840 !important;
 }
 
 .three__drop__diff__btn {
@@ -1081,7 +1092,7 @@
 }
 
 .plans__box__bar {
-    width: 100%;
+    width: 95%;
     height: 62px;
     background: #F0F0F0;
     /* border-top: 1px solid #D4D4D4;
@@ -1108,6 +1119,12 @@
     height: 3.2rem;
     background: #D4D4D4;
 }
+
+
+
+
+
+
 
 
 /* slide no. 9  */
@@ -1146,14 +1163,6 @@
 
 .modal___title {
     color: #FFFFFF;
-}
-
-.modal__display__none {
-    display: none;
-}
-
-.EditEmployeeData {
-    cursor: pointer;
 }
 
 .cancel__img {
@@ -1303,11 +1312,6 @@
     transform: rotateZ(90deg);
 }
 
-.kanban__dailog__w {
-    width: 80%;
-    margin: auto;
-}
-
 .kanban__dailog {
     width: 30%;
     height: 43%;
@@ -1382,198 +1386,4 @@
     top: 110%;
     left: -10%;
     transform: rotateZ(45deg);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.line__bar {
-    position: relative;
-}
-
-.line__bar::after {
-    content: '';
-    width: 100%;
-    background: #042840 !important;
-    height: 1px;
-    z-index: 100;
-    position: absolute;
-    bottom: -94%;
-    left: 0;
-}
-
-.new_transaction_btn {
-    transform: translateY(-0.8rem);
-}
-
-.import_inv_ {
-    width: 60% !important;
-}
-
-.cc_bcc {
-    width: 25vw !important;
-}
-
-.invoice__flex_w aside {
-    transform: translateY(-2.4rem) !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:1200px) {
-    .delete__box {
-        margin-right: 18% !important;
-    }
-}
-
-@media screen and (max-width:1024px) {
-    .delete__box {
-        margin-right: 20% !important;
-    }
-
-    .modal___dialog {
-        width: 50% !important;
-    }
-
-    .new_transaction_btn {
-        transform: translateY(0);
-        margin-top: 1rem;
-    }
-
-    .new_transaction_btn button {
-        margin-left: 0;
-    }
-
-    .new_transaction_sec {
-        flex-wrap: wrap;
-    }
-
-    .invoice__flex_w aside {
-        transform: translateY(-0.2rem) !important;
-    }
-
-    .add__employee__details__box {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width:975px) {
-    .delete__box {
-        margin-right: 35% !important;
-    }
-
-    .kanban__dailog__w {
-        width: 100% !important;
-    }
-
-    .import_inv_ {
-        width: 75% !important;
-    }
-
-    .cc_bcc {
-        width: 30vw !important;
-    }
-
-    .invoice__flex_w {
-        flex-wrap: wrap;
-    }
-
-    .invoice__flex_w aside {
-        transform: translateY(0) !important;
-        margin-top: 1rem;
-    }
-}
-
-@media screen and (max-width:900px) {
-    .last_prog_in_tab {
-        left: -50%;
-    }
-
-    .ar_agening_sum_rep_900px {
-        flex-wrap: wrap;
-    }
-
-}
-
-@media screen and (max-width:875px) {
-    .nav__para__top {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .nav__para__top__2 {
-        top: 25%;
-        left: 2%;
-    }
-
-}
-
-@media screen and (max-width:835px) {
-    .last_prog_in_tab {
-        left: -50%;
-    }
-
-    .margin__in__900px {
-        margin-top: 1rem;
-        justify-content: start;
-        margin-left: 0;
-    }
-
-    .new_transaction_sec .art {
-        flex-wrap: wrap;
-    }
-
-    .new_transaction_sec .art .marg__835px {
-        margin-left: 0;
-        margin-top: 0.8rem;
-    }
-
-    .w_20_in_835px {
-        width: 20% !important;
-    }
-
-    .w_35_in_835px {
-        width: 35% !important;
-    }
-
-    .table1_in_835px {
-        width: 120vw;
-    }
-
-    .table2_in_835px {
-        width: 110vw;
-    }
-
-    .table3_in_835px {
-        width: 120vw;
-    }
-
-    .add__employee__details__box {
-        width: 80%;
-    }
-
-    .ar_agening_sum_rep_900px .ar_4 {
-        margin-left: 0;
-        margin-top: 1rem;
-    }
-
 }

@@ -8,8 +8,6 @@
 
 #main__Content__content {
     margin-left: 0;
-    padding: 0 1rem;
-    width: 100% !important;
 }
 
 #main__Content__sidebar {
@@ -203,14 +201,6 @@ input {
     border-radius: 1px;
     border: 1px;
 
-}
-
-.mar__top__10px {
-    margin-top: 10px !important;
-}
-
-.home__page__pages li a {
-    color: #697077 !important;
 }
 
 

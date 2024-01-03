@@ -35,7 +35,7 @@
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css"> -->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/bordered-layout.css">
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
 
@@ -100,22 +100,24 @@
 
             <ul class="nav navbar-nav align-items-center">
                 <li class="nav-item nav-search ">
-                    <a href="home.html" class="nav-link nav-link-style">Home</a>
+                    <a class="nav-link nav-link-style">Home</a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="my__Info.html" class="nav-link nav-link-style "> My Info</a>
+                    <a class="nav-link nav-link-style "> My Info</a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="people.html" class="nav-link nav-link-style"> People</a>
+                    <a class="nav-link nav-link-style ">
+                        People</a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="home__hiring.html" class="nav-link nav-link-style"> Hiring </a>
+                    <a class="nav-link nav-link-style">
+                        Hiring </a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="homeReports.html" class="nav-link nav-link-style"> Reports </a>
+                    <a class="nav-link nav-link-style"> Reports </a>
                 </li>
                 <li class="nav-item nav-search">
-                    <a href="home__files.html" class="nav-link nav-link-style"> Files</a>
+                    <a class="nav-link nav-link-style"> Files</a>
                 </li>
             </ul>
         </div>
@@ -272,21 +274,23 @@
                                         <div class="row" style="margin-left: 1rem;">
                                             <div class="col-md-12 flex__between">
                                                 <div class="px-1">
-                                                    <a href="dashboardSales.html"
-                                                        class="color__dark__blue line__bar">All Sales</a>
+                                                    <span class="">All Sales</span>
                                                 </div>
                                                 <div class="px-3">
-                                                    <a href="customers.html" class="color__dark__blue">Customers</a>
+                                                    <span class="">Customers</span>
                                                 </div>
                                                 <div class="px-1">
-                                                    <a href="all__sales.html" class="color__dark__blue">Products and
-                                                        Services</a>
+                                                    <span class="">Products and
+                                                        Services</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </section>
                                 </div>
                             </div>
+                        </div>
+                        <div class="relative">
+                            <div class="small___bar2"></div>
                         </div>
                     </div>
                 </div>
@@ -329,7 +333,7 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div style="width: 15%;" class="margin__right__5px w_20_in_835px">
+                        <div style="width: 15%;" class="margin__right__5px">
                             <p class="progress__para__1">Rs 0.00</p>
                             <p class="progress__para__2">0 Overdue Invoices</p>
                             <div class="progress">
@@ -338,7 +342,7 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div style="width: 40%;" class="margin__right__5px w_35_in_835px">
+                        <div style="width: 40%;" class="margin__right__5px">
                             <p class="progress__para__1">Rs 5.00</p>
                             <p class="progress__para__2">1 Open Invoice Credit</p>
                             <div class="progress">
@@ -363,9 +367,9 @@
                 </div>
                 <section class="mt-2 container">
 
-                    <section class="flex__between new_transaction_sec">
-                        <div class="flex flex-wrap">
-                            <article class="flex__align art">
+                    <section class="flex__between">
+                        <div>
+                            <article class="flex__align">
                                 <div class="dropdown" style="margin-top: 4px;">
                                     <label for="exampleFormControlInput1" class="form-label form__labels">
                                         <span></span>
@@ -381,7 +385,7 @@
                                         </div>
                                     </button>
                                 </div>
-                                <div class="dropdown margin__left__10px ">
+                                <div class="dropdown margin__left__10px">
                                     <label for="exampleFormControlInput1" class="form-label form__labels">
                                         <span>Type</span>
                                     </label>
@@ -411,7 +415,7 @@
                                         </div>
                                     </button>
                                 </div>
-                                <div class="dropdown margin__left__10px marg__835px">
+                                <div class="dropdown margin__left__10px">
                                     <label for="exampleFormControlInput1" class="form-label form__labels">
                                         <span>Customer</span>
                                     </label>
@@ -460,8 +464,8 @@
                                 </div>
                             </article>
                         </div>
-                        <div class="new_transaction_btn">
-                            <button style="width: 150px;" class="create__approval__btn margin__left__10px flex__evenly">
+                        <div style="transform: translateY(-0.8rem);">
+                            <button style="width: 150px;" class="create__approval__btn flex__evenly">
                                 <span>New Transaction</span>
                                 <img src="../../../app-assets/images/white__drop__down.png" alt="">
                             </button>
@@ -473,81 +477,88 @@
             </section>
 
             <section class="container mt-2 mb-3 margin__left__10px">
-                <div class="mx-auto bg-white same__boxes__shadows border__radius__full__6px pt-3 px-1"
+                <div class="container mx-auto bg-white same__boxes__shadows border__radius__full__6px pt-3 px-1"
                     style="padding-bottom: 0.3rem;">
 
-                    <div class="table-responsive">
-                        <table class="table table1_in_835px">
-                            <thead>
-                                <tr>
-                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">
-                                        <input type="checkbox" name="" id="">
-                                    </th>
-                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">
-                                        <span>Date</span>
-                                        <img class="margin__left__5px"
-                                            src="../../../app-assets/images/down__arrow__line.png" alt="">
-                                    </th>
-                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">Type</th>
-                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">No.</th>
-                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">Customer</th>
-                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">Memo</th>
-                                    <th></th>
-                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">Amount Status</th>
-                                    <th class="padding__for__tr_th_td"></th>
-                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">
-                                        <span>Action</span>
-                                        <img class="margin__left__5px"
-                                            src="../../../app-assets/images/print__share__popup__settings.png" alt="">
-                                    </th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th class="padding__for__tr_th_td" scope="row">
-                                        <input type="checkbox" name="" id="">
-                                    </th>
-                                    <td class="font16__colorBlueish">10/10/2023</td>
-                                    <td class="font16__colorBlueish">Invoice</td>
-                                    <td class="font16__colorBlueish">1001</td>
-                                    <td class="font16__colorBlueish">Sample Customer</td>
-                                    <td class="font16__colorBlueish"></td>
-                                    <td class="font16__colorBlueish"></td>
-                                    <td class="font16__colorBlueish">Rs 5.00 Due in 26 days</td>
-                                    <td></td>
-                                    <td class="font16__colorBlueish">
-                                        <span>Edit | Receive Payment | </span>
-                                        <img src="../../../app-assets/images/blue__dropdown_menu.png" alt="">
-                                    </td>
-                                </tr>
-                                <tr style="background-color: #F0F0F0;">
-                                    <th scope="row"></th>
-                                    <td></td>
-                                    <td class="font16__colorBlueish font700" class="padding__for__tr_th_td">Total</td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td class="font16__colorBlueish font700">Rs 5.00</td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">
-                                    </th>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="padding__for__tr_th_td" style="text-transform: capitalize !important;"
+                                    scope="col">
+                                    <input type="checkbox" name="" id="">
+                                </th>
+                                <th class="padding__for__tr_th_td" style="text-transform: capitalize !important;"
+                                    scope="col">
+                                    <span>Date</span>
+                                    <img class="margin__left__5px"
+                                        src="../../../app-assets/images/down__arrow__line.png" alt="">
+                                </th>
+                                <th class="padding__for__tr_th_td" style="text-transform: capitalize !important;"
+                                    scope="col">Type</th>
+                                <th class="padding__for__tr_th_td" style="text-transform: capitalize !important;"
+                                    scope="col">No.</th>
+                                <th class="padding__for__tr_th_td" style="text-transform: capitalize !important;"
+                                    scope="col">Customer</th>
+                                <th class="padding__for__tr_th_td" style="text-transform: capitalize !important;"
+                                    scope="col">Memo</th>
+                                <th></th>
+                                <th class="padding__for__tr_th_td" style="text-transform: capitalize !important;"
+                                    scope="col">Amount Status</th>
+                                <th class="padding__for__tr_th_td"></th>
+                                <th class="padding__for__tr_th_td" style="text-transform: capitalize !important;"
+                                    scope="col">
+                                    <span>Action</span>
+                                    <img class="margin__left__5px"
+                                        src="../../../app-assets/images/print__share__popup__settings.png" alt="">
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="padding__for__tr_th_td" scope="row">
+                                    <input type="checkbox" name="" id="">
+                                </th>
+                                <td class="font16__colorBlueish">10/10/2023</td>
+                                <td class="font16__colorBlueish">Invoice</td>
+                                <td class="font16__colorBlueish">1001</td>
+                                <td class="font16__colorBlueish">Sample Customer</td>
+                                <td class="font16__colorBlueish"></td>
+                                <td class="font16__colorBlueish"></td>
+                                <td class="font16__colorBlueish">Rs 5.00 Due in 26 days</td>
+                                <td></td>
+                                <td class="font16__colorBlueish">
+                                    <span>Edit | Receive Payment | </span>
+                                    <img src="../../../app-assets/images/blue__dropdown_menu.png" alt="">
+                                </td>
+                            </tr>
+                            <tr style="background-color: #F0F0F0;">
+                                <th scope="row"></th>
+                                <td></td>
+                                <td class="font16__colorBlueish" style="font-weight: bold;"
+                                    class="padding__for__tr_th_td">Total</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td class="font16__colorBlueish" style="font-weight: bold;">Rs 5.00</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                </th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
 
                 </div>
             </section>
