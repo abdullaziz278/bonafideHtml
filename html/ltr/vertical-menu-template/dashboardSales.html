@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description"
+        content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title> Dashboard Sales - Vuexy - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+        rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="../../../app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="../../../app-assets/vendors/css/tables/datatable/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="../../../app-assets/vendors/css/tables/datatable/buttons.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="../../../app-assets/vendors/css/tables/datatable/rowGroup.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css"> -->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <link rel="stylesheet" href="../../../app-assets/css/approvalSlide.css">
+    <link rel="stylesheet" href="../../../app-assets/css/myWork.css">
+    <!-- END: Custom CSS-->
+
+    <style>
+        .progress {
+            display: flex;
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        .progress-bar {
+            flex-grow: 1;
+        }
+    </style>
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click"
+    data-menu="vertical-menu-modern" data-col="">
+
+    <!-- BEGIN: Header-->
+    <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav">
+        <div class="navbar-container">
+
+            <div class="relative">
+                <div class="flex__between">
+                    <div class="flex__align nav__para__top__1">
+                        <img src="../../../app-assets/images/b__with__tail.png" alt="">
+                        <span class="margin__left__5px" style="color: #FFFFFF;">6 days left in your free trial. Call
+                            1-801-724-6601 to sign
+                            up!</span>
+                    </div>
+                    <div class="flex__align nav__para__top__2">
+                        <img src="../../../app-assets/images/white__eye_.png" alt="">
+                        <span class="margin__left__5px" style="color: #FFFFFF;">Viewing sample data. Clear data and add
+                            your own »</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bookmark-wrapper d-flex align-items-center">
+                <ul class="nav navbar-nav d-xl-none">
+                    <li class="nav-item">
+                        <a class="nav-link menu-toggle" href="javascript:void(0);"><i class="ficon"
+                                data-feather="menu"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="nav navbar-nav align-items-center">
+                <li class="nav-item nav-search ">
+                    <a href="home.html" class="nav-link nav-link-style">Home</a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="my__Info.html" class="nav-link nav-link-style "> My Info</a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="people.html" class="nav-link nav-link-style"> People</a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="home__hiring.html" class="nav-link nav-link-style"> Hiring </a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="homeReports.html" class="nav-link nav-link-style"> Reports </a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="home__files.html" class="nav-link nav-link-style"> Files</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu-->
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item mr-auto"><a class="navbar-brand"
+                        href="../../../html/ltr/vertical-menu-template/index.html"><span class="brand-logo">
+                            <img src="../../../app-assets/images/Group 78.png" alt=""></span>
+                        <h2 class="brand-text">Tayyab</h2>
+                    </a></li>
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+                            class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i
+                            class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary"
+                            data-feather="disc" data-ticon="disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <ul class="container side-bar">
+                    <li class="side-bar-item">
+                        <img class="img1" src="../../../app-assets/images/Vector (1).png" alt="" height="20px"
+                            width="29px">
+                    </li>
+                    <li class="side-bar-item"><img class="img2" src="../../../app-assets/images/Vector (2).png" alt=""
+                            height="20px" width="20px"></li>
+                    <li class="side-bar-item"><img class="img3" src="../../../app-assets/images/Vector (3).png" alt=""
+                            height="20px" width="20px"></li>
+                    <li class="side-bar-item"><img class="img4" src="../../../app-assets/images/Group 78.png" alt=""
+                            height="20px" width="20px"></li>
+                </ul>
+
+
+                <div class="container input-group input-group-merge mb-2 search1">
+                    <div class="input-group-prepend">
+                        <span style="border: none; background-color: inherit;" class="input-group-text"
+                            id="basic-addon-search2"><i data-feather="search"></i></span>
+                    </div>
+                    <input style="border: none !important; background-color: inherit;" type="text" class="form-control"
+                        placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search2" />
+                </div>
+                <hr>
+                <li style="padding: 16px 0px;" class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Vector.png" alt="">
+                        <span style="font-weight: bolder !important; color: #042840;" class="menu-title text-truncate"
+                            data-i18n="5">Account</span>
+                    </a>
+                </li>
+                <hr>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Vector202.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="5">Access Levels</span></a>
+
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group (27).png" alt=""><span
+                            class="menu-title text-truncate" data-i18n="Full-Time">Employee Fields</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group203.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Operations">Approvals</span></a>
+
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Vector203.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="User">Apps</span></a>
+
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Vector (22).png" alt=""><span
+                            class="menu-title text-truncate" data-i18n="Pages">Benefits</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/comdirect1.png" alt=""><span
+                            class="menu-title text-truncate" data-i18n="Pages">Company Directory</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/emailalertsmail.png" alt=""><span
+                            class="menu-title text-truncate" data-i18n="Typography">Email Alerts</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/vector200.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Employee Satisfaction</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Vector201.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Employee Wellbeing</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group204.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Hiring</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group205.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Holidays</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Vector204.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Logo & Color</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group206.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Offboarding</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group207.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Onboarding</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group205.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Payroll</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group206.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Performance</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group208.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Time Off</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group209.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Time Tracking</span></a>
+                </li>
+                <li class=" nav-item"><a class="d-flex align-items-center" href="#"><img
+                            src="../../../app-assets/images/Group210.png" alt=""><span class="menu-title text-truncate"
+                            data-i18n="Typography">Training</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- END: Main Menu-->
+    <div class="relative">
+        <main class="app-content content">
+            <div class="content-overlay"></div>
+            <div class="content-wrapper p-0">
+                <div class="content-header row mt-5 ">
+                    <div class="content-header-left col-md-9 col-12 mb-2">
+                        <div class="row breadcrumbs-top mt-2">
+                            <div class="col-12 ml-2">
+                                <div class="flex__between relative">
+                                    <a href="#">
+                                        <span style="margin-left: 5px;" class="training-head">Sales</span>
+                                    </a>
+                                </div>
+                                <div class="flex__between mt-1 relative">
+                                    <section class="">
+                                        <div class="row" style="margin-left: 1rem;">
+                                            <div class="col-md-12 flex__between">
+                                                <div class="px-1">
+                                                    <a href="dashboardSales.html"
+                                                        class="color__dark__blue line__bar">All Sales</a>
+                                                </div>
+                                                <div class="px-3">
+                                                    <a href="customers.html" class="color__dark__blue">Customers</a>
+                                                </div>
+                                                <div class="px-1">
+                                                    <a href="all__sales.html" class="color__dark__blue">Products and
+                                                        Services</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="width: 95%; transform: translateY(-0.8rem); margin-bottom: 0.5rem">
+
+            <section class="container row">
+
+                <div class="container">
+                    <div class="container flex__align">
+                        <span class="font16__colorBlackish">Sales Transactions</span>
+                        <div class="margin__left__10px">
+                            <img src="../../../app-assets/images/feedback__with__pen.png" alt="">
+                            <span class="font14__colorBlueish">Feedback</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="container pt-4 pb-2">
+
+                <section class="container">
+                    <article class="d-flex">
+                        <div style="width: 15%;" class="margin__right__5px">
+                            <p class="progress__para__1">Rs 0.00</p>
+                            <p class="progress__para__2">0 Estimates</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar"
+                                    style="background: #21ABF6; border-radius: 1rem; width: 15%;" aria-valuenow="15"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div style="width: 15%;" class="margin__right__5px">
+                            <p class="progress__para__1">Rs 0.00</p>
+                            <p class="progress__para__2">Unbilled Income</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar"
+                                    style="background: #0077C5; border-radius: 1rem; width: 15%;" aria-valuenow="15"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div style="width: 15%;" class="margin__right__5px w_20_in_835px">
+                            <p class="progress__para__1">Rs 0.00</p>
+                            <p class="progress__para__2">0 Overdue Invoices</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar"
+                                    style="background: #FF8000; border-radius: 1rem; width: 15%;" aria-valuenow="15"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div style="width: 40%;" class="margin__right__5px w_35_in_835px">
+                            <p class="progress__para__1">Rs 5.00</p>
+                            <p class="progress__para__2">1 Open Invoice Credit</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar"
+                                    style="background: #D4D4D4; border-radius: 1rem; width: 40%;" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div style="width: 15%;">
+                            <p class="progress__para__1">Rs 0.00</p>
+                            <p class="progress__para__2">0 Recently Paid</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar"
+                                    style="background: #25A249; border-radius: 1rem; width: 15%;" aria-valuenow="15"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+                <div class="container mt-3">
+                    <hr>
+                </div>
+                <section class="mt-2 container">
+
+                    <section class="flex__between new_transaction_sec">
+                        <div class="flex flex-wrap">
+                            <article class="flex__align art">
+                                <div class="dropdown" style="margin-top: 4px;">
+                                    <label for="exampleFormControlInput1" class="form-label form__labels">
+                                        <span></span>
+                                    </label>
+                                    <button style="width: 180px;"
+                                        class="drop_btn d-flex justify-content-between align-items-center pr-0">
+                                        <span>Batch Actions</span>
+                                        <div class="d-flex align-items-center justify-content-end">
+                                            <div class="drop__down_icon"
+                                                style="padding: 4px 8px; background-color: #E5E5E5; border: 1px solid #E5E5E5;">
+                                                <img src="../../../app-assets/images/dropdown-icon.png" alt="">
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="dropdown margin__left__10px ">
+                                    <label for="exampleFormControlInput1" class="form-label form__labels">
+                                        <span>Type</span>
+                                    </label>
+                                    <button style="width: 180px;"
+                                        class="drop_btn d-flex justify-content-between align-items-center pr-0">
+                                        <span>All Transactions</span>
+                                        <div class="d-flex align-items-center justify-content-end">
+                                            <div class="drop__down_icon"
+                                                style="padding: 4px 8px; background-color: #E5E5E5; border: 1px solid #E5E5E5;">
+                                                <img src="../../../app-assets/images/dropdown-icon.png" alt="">
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="dropdown margin__left__10px">
+                                    <label for="exampleFormControlInput1" class="form-label form__labels">
+                                        <span>Date</span>
+                                    </label>
+                                    <button style="width: 180px;"
+                                        class="drop_btn d-flex justify-content-between align-items-center pr-0">
+                                        <span>Last 12 Months</span>
+                                        <div class="d-flex align-items-center justify-content-end">
+                                            <div class="drop__down_icon"
+                                                style="padding: 4px 8px; background-color: #E5E5E5; border: 1px solid #E5E5E5;">
+                                                <img src="../../../app-assets/images/dropdown-icon.png" alt="">
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="dropdown margin__left__10px marg__835px">
+                                    <label for="exampleFormControlInput1" class="form-label form__labels">
+                                        <span>Customer</span>
+                                    </label>
+                                    <button style="width: 180px;"
+                                        class="drop_btn d-flex justify-content-between align-items-center pr-0">
+                                        <span>Search</span>
+                                        <div class="d-flex align-items-center justify-content-end">
+                                            <div class="drop__down_icon"
+                                                style="padding: 4px 8px; background-color: #E5E5E5; border: 1px solid #E5E5E5;">
+                                                <img src="../../../app-assets/images/dropdown-icon.png" alt="">
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </article>
+                            <article class="flex__align">
+                                <div class="dropdown">
+                                    <label for="exampleFormControlInput1" class="form-label form__labels">
+                                        <span></span>
+                                    </label>
+                                    <button style="width: 180px;"
+                                        class="drop_btn d-flex justify-content-between align-items-center pr-0">
+                                        <span>All Statuses</span>
+                                        <div class="d-flex align-items-center justify-content-end">
+                                            <div class="drop__down_icon"
+                                                style="padding: 3.8px 8px; background-color: #E5E5E5; border: 1px solid #E5E5E5;">
+                                                <img src="../../../app-assets/images/dropdown-icon.png" alt="">
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div class="dropdown margin__left__10px">
+                                    <label for="exampleFormControlInput1" class="form-label form__labels">
+                                        <span></span>
+                                    </label>
+                                    <button style="width: 180px;"
+                                        class="drop_btn d-flex justify-content-between align-items-center pr-0">
+                                        <span>Delivery Method</span>
+                                        <div class="d-flex align-items-center justify-content-end">
+                                            <div class="drop__down_icon"
+                                                style="padding: 3.8px 8px; background-color: #E5E5E5; border: 1px solid #E5E5E5;">
+                                                <img src="../../../app-assets/images/dropdown-icon.png" alt="">
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="new_transaction_btn">
+                            <button style="width: 150px;" class="create__approval__btn margin__left__10px flex__evenly">
+                                <span>New Transaction</span>
+                                <img src="../../../app-assets/images/white__drop__down.png" alt="">
+                            </button>
+                        </div>
+                    </section>
+
+                </section>
+
+            </section>
+
+            <section class="container mt-2 mb-3 margin__left__10px">
+                <div class="mx-auto bg-white same__boxes__shadows border__radius__full__6px pt-3 px-1"
+                    style="padding-bottom: 0.3rem;">
+
+                    <div class="table-responsive">
+                        <table class="table table1_in_835px">
+                            <thead>
+                                <tr>
+                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">
+                                        <input type="checkbox" name="" id="">
+                                    </th>
+                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">
+                                        <span>Date</span>
+                                        <img class="margin__left__5px"
+                                            src="../../../app-assets/images/down__arrow__line.png" alt="">
+                                    </th>
+                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">Type</th>
+                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">No.</th>
+                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">Customer</th>
+                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">Memo</th>
+                                    <th></th>
+                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">Amount Status</th>
+                                    <th class="padding__for__tr_th_td"></th>
+                                    <th class="padding__for__tr_th_td text-capitalize" scope="col">
+                                        <span>Action</span>
+                                        <img class="margin__left__5px"
+                                            src="../../../app-assets/images/print__share__popup__settings.png" alt="">
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="padding__for__tr_th_td" scope="row">
+                                        <input type="checkbox" name="" id="">
+                                    </th>
+                                    <td class="font16__colorBlueish">10/10/2023</td>
+                                    <td class="font16__colorBlueish">Invoice</td>
+                                    <td class="font16__colorBlueish">1001</td>
+                                    <td class="font16__colorBlueish">Sample Customer</td>
+                                    <td class="font16__colorBlueish"></td>
+                                    <td class="font16__colorBlueish"></td>
+                                    <td class="font16__colorBlueish">Rs 5.00 Due in 26 days</td>
+                                    <td></td>
+                                    <td class="font16__colorBlueish">
+                                        <span>Edit | Receive Payment | </span>
+                                        <img src="../../../app-assets/images/blue__dropdown_menu.png" alt="">
+                                    </td>
+                                </tr>
+                                <tr style="background-color: #F0F0F0;">
+                                    <th scope="row"></th>
+                                    <td></td>
+                                    <td class="font16__colorBlueish font700" class="padding__for__tr_th_td">Total</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="font16__colorBlueish font700">Rs 5.00</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                    </th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Footer-->
+    <div class="relative">
+        <footer class="footer footer-static footer-light">
+            <p class="clearfix mb-0">
+                <a style="text-decoration: underline;" href="privacy-policy.html">Privacy Policy</a> · <a
+                    href="terms-of-service.html" style="text-decoration: underline;">Terms of Service</a>
+                · ©
+                2008–2023 Bona Fide All rights reserved.
+            </p>
+            <span id="bona-fide">BONA FIDE</span>
+        </footer>
+    </div>
+    <!-- <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button> -->
+    <!-- END: Footer-->
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../../../app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/responsive.bootstrap4.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/datatables.buttons.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/jszip.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/pdfmake.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/vfs_fonts.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/buttons.html5.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/buttons.print.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../app-assets/js/scripts/tables/table-datatables-basic.js"></script>
+    <!-- END: Page JS-->
+
+    <script>
+        $(window).on('load', function () {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
+</body>
+<!-- END: Body-->
+
+</html>

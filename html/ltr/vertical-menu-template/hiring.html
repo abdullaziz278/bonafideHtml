@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description"
+        content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>Dashboard ecommerce - Vuexy - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+        rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/charts/apexcharts.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/toastr.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css"> -->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/dashboard-ecommerce.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/charts/chart-apex.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/extensions/ext-component-toastr.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click"
+    data-menu="vertical-menu-modern" data-col="">
+
+    <!-- BEGIN: Header-->
+    <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav ">
+        <div class="navbar-container ">
+            <div class="bookmark-wrapper d-flex align-items-center">
+                <ul class="nav navbar-nav d-xl-none">
+                    <li class="nav-item"><a class="nav-link menu-toggle" href="javascript:void(0);"><i class="ficon"
+                                data-feather="menu"></i></a></li>
+                </ul>
+
+            </div>
+
+
+            <!-- <ul class="nav navbar-nav align-items-center ">
+              
+                
+                <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style">Home</a></li>
+                <li class="nav-item nav-search"><a class="nav-link nav-link-style"> My Info</a> </li>
+                <li class="nav-item nav-search"><a class="nav-link nav-link-style"> People</a> </li>
+                <li class="nav-item nav-search"><a class="nav-link nav-link-style"> Hiring </a> </li>
+                <li class="nav-item nav-search"><a class="nav-link nav-link-style"> Reports  </a> </li>
+                <li class="nav-item nav-search"><a class="nav-link nav-link-style"> Files</a> </li>
+
+            </ul> -->
+            <ul class="nav navbar-nav align-items-center">
+                <li class="nav-item nav-search ">
+                    <a href="home.html" class="nav-link nav-link-style">Home</a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="my__Info.html" class="nav-link nav-link-style "> My Info</a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="people.html" class="nav-link nav-link-style"> People</a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="home__hiring.html" class="nav-link nav-link-style"> Hiring </a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="homeReports.html" class="nav-link nav-link-style"> Reports </a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="home__files.html" class="nav-link nav-link-style"> Files</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu-->
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item mr-auto"><a class="navbar-brand"
+                        href="../../../html/ltr/vertical-menu-template/index.html"><span class="brand-logo">
+                            <img src="../../../app-assets/images/Group 78.png" alt=""></span>
+                        <h2 class="brand-text">Faisal</h2>
+                    </a></li>
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+                            class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i
+                            class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary"
+                            data-feather="disc" data-ticon="disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="main-menu-content main-menu-bar">
+            <ul class="container side-bar">
+                <li class="side-bar-item">
+                    <img class="img1" src="../../../app-assets/images/Vector (1).png" alt="" height="20px" width="29px">
+                </li>
+                <li class="side-bar-item"><img class="img2" src="../../../app-assets/images/Vector (2).png" alt=""
+                        height="20px" width="20px"></li>
+                <li class="side-bar-item"><img class="img3" src="../../../app-assets/images/Vector (3).png" alt=""
+                        height="20px" width="20px"></li>
+                <li class="side-bar-item"><img class="img4" src="../../../app-assets/images/Group 78.png" alt=""
+                        height="20px" width="20px"></li>
+            </ul>
+            <div class="container input-group input-group-merge mb-2 search1">
+                <div class="input-group-prepend">
+                    <span style="border: none; background-color: inherit;" class="input-group-text"
+                        id="basic-addon-search2"><i data-feather="search"></i></span>
+                </div>
+                <input style="border: none; background-color: inherit;" type="text" class="form-control"
+                    placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search2" />
+            </div>
+
+        </div>
+    </div>
+    <!-- END: Main Menu-->
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="content-header mt-5 ">
+            <div class="content-header-left col-md-9 col-12 mb-2 p-0">
+                <div class="breadcrumbs-top mt-2">
+                    <div class="col-12">
+                        <a href="#"><img class="training-img" src="../../../app-assets/images/Group (34).png" alt="">
+                            <span class="training-head"> Hiring</span> </a>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            <!-- <div class="content-header-right text-md-right col-md-3 col-12 d-md-block d-none">
+              <div class="form-group breadcrumb-right">
+                  <div class="mt-2">
+                    <a href="#"><img  src="../../../app-assets/images/Vector (24).png" alt="">
+                        <span class=""> Quick access to the directory</span> </a>
+                  </div>
+              </div>
+          </div> -->
+        </div>
+        <div class="content-header d-flex">
+            <div class="content-header-left col-md-8 col-12 mb-2">
+
+
+                <div class="form-group breadcrumb-right">
+                    <div class="">
+                        <a class="set-heading" href="#"><img src="../../../app-assets/images/Vector (25).png" alt="">
+                            <span class=""> Job Openings</span> </a>
+                        <a class="set-heading" href="#"><img src="../../../app-assets/images/Group 369.png" alt="">
+                            <span class=""> Candidates</span> </a>
+                        <a href="#"><img src="../../../app-assets/images/Group 80 (1).png" alt="">
+                            <span class="">Talent Pools</span> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-header-right text-md-right col-md-4 col-12 d-md-block d-none">
+                <div class="row breadcrumbs-top">
+                    <div class="col-12">
+                        View Careers Website · Get Embed Code
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="content-header d-flex">
+            <div class="content-header-left col-md-6 col-12 mb-2 p-0">
+                <div class="">
+                    <div class="col-12">
+                        <button class="btn btn-outline-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                            </svg> Add Job Opening</button>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="content-header-right text-md-right col-md-6 col-12 d-md-block d-none">
+                <div class="form-group breadcrumb-right">
+                    <div class="">
+                        <P></P>
+                        <a class="set-heading" href="#">
+                            <span class=""> 5 of 25 open · Show</span> </a>
+                        <div class="btn-group">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Draft & Open
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+                                <a class="dropdown-item" href="javascript:void(0);">Option 1</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Option 2</a>
+                                <a class="dropdown-item" href="javascript:void(0);">Option 3</a>
+                            </div>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn btn-outline-secondary " type="button" aria-haspopup="true"
+                                aria-expanded="false"><img src="../../../app-assets/images/Group216.png" alt="">
+
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrapper p-0" style="width: 100%;">
+
+            <div class="content-body">
+                <!-- Input Mask start -->
+                <div class="" id="table-head">
+                    <div class="col-12">
+                        <div class="card">
+
+
+                            <div class="card-body mt-2">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead class="thead-light">
+                                            <tr>
+                                                <th>Candidates</th>
+                                                <th>Job Opening</th>
+                                                <th>Hiring Lead</th>
+                                                <th>Hiring Lead</th>
+                                                <th>Status</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tb ody>
+                                            <tr class="hiringtr">
+                                                <td>
+                                                    <img src="../../../app-assets/images/Group 81.png" alt="user" />
+                                                    <span class="font-weight-bold table-text">1</span>
+                                                    <p class="table-text">1 NEW</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text-primary">Financial Analyst</p>
+                                                    <p class="table-text">Finance · Riyadh City, Saudi Arabia</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text"> Preston Wilder</p>
+
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Nov 23, 2023</p>
+                                                    <p>in 2 months</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Open</p>
+                                                </td>
+                                                <td>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="email-detail-head hiringtr">
+                                                <td>
+                                                    <img src="../../../app-assets/images/Group 81.png" alt="user" />
+                                                    <span class="font-weight-bold table-text">1</span>
+                                                    <p class="table-text">1 NEW</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text-primary">Financial Analyst</p>
+                                                    <p class="table-text">Finance · Riyadh City, Saudi Arabia</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text"> Preston Wilder</p>
+
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Nov 23, 2023</p>
+                                                    <p>in 2 months</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Open</p>
+                                                </td>
+                                                <td>
+                                                    <div class="mail-meta-item2 d-flex align-items-center">
+                                                        <div class="dropdown ml-50 d-flex">
+                                                            <div style="margin-right: 17px;" role="button"
+                                                                class=" hide-arrow dropdown-toggle" id="email_more"
+                                                                data-toggle="dropdown" aria-haspopup="true"
+                                                                aria-expanded="false">
+                                                                <img src="../../../app-assets/images/Group (16).png"
+                                                                    alt="">
+                                                            </div>
+                                                            <div style="margin-right: 17px;" role="button"
+                                                                class=" hide-arrow dropdown-toggle" id="email_more"
+                                                                data-toggle="dropdown" aria-haspopup="true"
+                                                                aria-expanded="false">
+                                                                <img src="../../../app-assets/images/Group (24).png"
+                                                                    alt="">
+                                                            </div>
+                                                            <div role="button" class="hide-arrow dropdown-toggle"
+                                                                id="email_more" data-toggle="dropdown"
+                                                                aria-haspopup="true" aria-expanded="false">
+                                                                <img src="../../../app-assets/images/Group217.png"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="hiringtr">
+                                                <td>
+                                                    <img src="../../../app-assets/images/Group 81.png" alt="user" />
+                                                    <span class="font-weight-bold table-text">1</span>
+                                                    <p class="table-text">1 NEW</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text-primary">Financial Analyst</p>
+                                                    <p class="table-text">Finance · Riyadh City, Saudi Arabia</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text"> Preston Wilder</p>
+
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Nov 23, 2023</p>
+                                                    <p>in 2 months</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Open</p>
+                                                </td>
+                                                <td>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="hiringtr">
+                                                <td>
+                                                    <img src="../../../app-assets/images/Group 81.png" alt="user" />
+                                                    <span class="font-weight-bold table-text">1</span>
+                                                    <p class="table-text">1 NEW</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text-primary">Financial Analyst</p>
+                                                    <p class="table-text">Finance · Riyadh City, Saudi Arabia</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text"> Preston Wilder</p>
+
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Nov 23, 2023</p>
+                                                    <p>in 2 months</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Open</p>
+                                                </td>
+                                                <td>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="hiringtr">
+                                                <td>
+                                                    <img src="../../../app-assets/images/Group 81.png" alt="user" />
+                                                    <span class="font-weight-bold table-text">1</span>
+                                                    <p class="table-text">1 NEW</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text-primary">Financial Analyst</p>
+                                                    <p class="table-text">Finance · Riyadh City, Saudi Arabia</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text"> Preston Wilder</p>
+
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Nov 23, 2023</p>
+                                                    <p>in 2 months</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Open</p>
+                                                </td>
+                                                <td>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="hiringtr">
+                                                <td>
+                                                    <img src="../../../app-assets/images/Group 81.png" alt="user" />
+                                                    <span class="font-weight-bold table-text">1</span>
+                                                    <p class="table-text">1 NEW</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text-primary">Financial Analyst</p>
+                                                    <p class="table-text">Finance · Riyadh City, Saudi Arabia</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text"> Preston Wilder</p>
+
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Nov 23, 2023</p>
+                                                    <p>in 2 months</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Open</p>
+                                                </td>
+                                                <td>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="hiringtr">
+                                                <td>
+                                                    <img src="../../../app-assets/images/Group 81.png" alt="user" />
+                                                    <span class="font-weight-bold table-text">1</span>
+                                                    <p class="table-text">1 NEW</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text-primary">Financial Analyst</p>
+                                                    <p class="table-text">Finance · Riyadh City, Saudi Arabia</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text"> Preston Wilder</p>
+
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Nov 23, 2023</p>
+                                                    <p>in 2 months</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Open</p>
+                                                </td>
+                                                <td>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="hiringtr">
+                                                <td>
+                                                    <img src="../../../app-assets/images/Group 81.png" alt="user" />
+                                                    <span class="font-weight-bold table-text">1</span>
+                                                    <p class="table-text">1 NEW</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text-primary">Financial Analyst</p>
+                                                    <p class="table-text">Finance · Riyadh City, Saudi Arabia</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text"> Preston Wilder</p>
+
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Nov 23, 2023</p>
+                                                    <p>in 2 months</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Open</p>
+                                                </td>
+                                                <td>
+
+                                                </td>
+                                            </tr>
+                                            <tr class="hiringtr">
+                                                <td>
+                                                    <img src="../../../app-assets/images/Group 81.png" alt="user" />
+                                                    <span class="font-weight-bold table-text">1</span>
+                                                    <p class="table-text">1 NEW</p>
+                                                </td>
+                                                <td>
+                                                    <p class="text-primary">Financial Analyst</p>
+                                                    <p class="table-text">Finance · Riyadh City, Saudi Arabia</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text"> Preston Wilder</p>
+
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Nov 23, 2023</p>
+                                                    <p>in 2 months</p>
+                                                </td>
+                                                <td>
+                                                    <p class="table-text">Open</p>
+                                                </td>
+                                                <td>
+
+                                                </td>
+                                            </tr>
+                                        </tb>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light">
+        <p class="clearfix mb-0">
+            <a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-of-service.html">Terms of Service</a> · ©
+            2008–2023 Bona Fide All rights reserved.
+        </p>
+        <span id="bona-fide">BONA FIDE</span>
+    </footer>
+    <!-- END: Footer-->
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../../../app-assets/vendors/js/charts/apexcharts.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
+    <!-- END: Page JS-->
+
+    <script>
+        $(window).on('load', function () {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
+</body>
+<!-- END: Body-->
+
+</html>

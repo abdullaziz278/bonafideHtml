@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimal-ui">
+    <meta name="description"
+        content="Vuexy admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Vuexy admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>DataTables - Vuexy - Bootstrap HTML admin template</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/ico/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
+        rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="../../../app-assets/vendors/css/tables/datatable/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="../../../app-assets/vendors/css/tables/datatable/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="../../../app-assets/vendors/css/tables/datatable/buttons.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="../../../app-assets/vendors/css/tables/datatable/rowGroup.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/pickers/flatpickr/flatpickr.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css"> -->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/bordered-layout.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern  navbar-floating footer-static  " data-open="click"
+    data-menu="vertical-menu-modern" data-col="">
+
+    <!-- BEGIN: Header-->
+    <nav class="header-navbar navbar navbar-expand-lg align-items-center floating-nav">
+        <div class="navbar-container">
+            <div class="bookmark-wrapper d-flex align-items-center">
+                <ul class="nav navbar-nav d-xl-none">
+                    <li class="nav-item">
+                        <a class="nav-link menu-toggle" href="javascript:void(0);"><i class="ficon"
+                                data-feather="menu"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- <ul class="nav navbar-nav align-items-center ">
+            
+              
+              <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-style">Home</a></li>
+              <li class="nav-item nav-search"><a class="nav-link nav-link-style"> My Info</a> </li>
+              <li class="nav-item nav-search"><a class="nav-link nav-link-style"> People</a> </li>
+              <li class="nav-item nav-search"><a class="nav-link nav-link-style"> Hiring </a> </li>
+              <li class="nav-item nav-search"><a class="nav-link nav-link-style"> Reports  </a> </li>
+              <li class="nav-item nav-search"><a class="nav-link nav-link-style"> Files</a> </li>
+
+          </ul> -->
+            <ul class="nav navbar-nav align-items-center">
+                <li class="nav-item nav-search ">
+                    <a href="home.html" class="nav-link nav-link-style">Home</a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="my__Info.html" class="nav-link nav-link-style "> My Info</a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="people.html" class="nav-link nav-link-style"> People</a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="home__hiring.html" class="nav-link nav-link-style"> Hiring </a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="homeReports.html" class="nav-link nav-link-style"> Reports </a>
+                </li>
+                <li class="nav-item nav-search">
+                    <a href="home__files.html" class="nav-link nav-link-style"> Files</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu-->
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item mr-auto"><a class="navbar-brand"
+                        href="../../../html/ltr/vertical-menu-template/index.html"><span class="brand-logo">
+                            <img src="../../../app-assets/images/Group 78.png" alt=""></span>
+                        <h2 class="brand-text">Faisal</h2>
+                    </a></li>
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+                            class="d-block d-xl-none text-primary toggle-icon font-medium-4" data-feather="x"></i><i
+                            class="d-none d-xl-block collapse-toggle-icon font-medium-4  text-primary"
+                            data-feather="disc" data-ticon="disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <ul class="container side-bar">
+                    <li class="side-bar-item">
+                        <img class="img1" src="../../../app-assets/images/Vector (1).png" alt="" height="20px"
+                            width="29px">
+                    </li>
+                    <li class="side-bar-item"><img class="img2" src="../../../app-assets/images/Vector (2).png" alt=""
+                            height="20px" width="20px"></li>
+                    <li class="side-bar-item"><img class="img3" src="../../../app-assets/images/Vector (3).png" alt=""
+                            height="20px" width="20px"></li>
+                    <li class="side-bar-item"><img class="img4" src="../../../app-assets/images/Group 78.png" alt=""
+                            height="20px" width="20px"></li>
+                </ul>
+
+                <div class="container input-group input-group-merge mb-2 search1">
+                    <div class="input-group-prepend">
+                        <span style="border: none; background-color: inherit;" class="input-group-text"
+                            id="basic-addon-search2"><i data-feather="search"></i></span>
+                    </div>
+                    <input style="border: none; background-color: inherit;" type="text" class="form-control"
+                        placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search2" />
+                </div>
+
+            </ul>
+        </div>
+    </div>
+    <!-- END: Main Menu-->
+    <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="content-header d-flex mt-5 ">
+            <div class="content-header-left col-md-9 col-12 mb-2">
+                <div class="breadcrumbs-top mt-2">
+                    <div class="col-12">
+                        <a href="#">
+                            <span class="">
+                                < General Application - Lindon, UT</span>
+                        </a>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="content-header-right text-md-right col-md-3 col-12 d-md-block d-none">
+                <div class="form-group breadcrumb-right">
+                    <div class="mt-2">
+                        <a href="#"><img src="../../../app-assets/images/Vector (24).png" alt="">
+                            <span class=""> Next: John Stone >
+                                New</span> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-header">
+            <div class="content-header-left col-md-8 col-12 mb-2">
+                <div class=" d-flex breadcrumbs-top" style="align-items: center">
+                    <div class="">
+                        <img src="../../../app-assets/images/Mask group22.png" alt="">
+                    </div>
+                    <div class="col-6">
+                        <span class="training-head" style="color: black; display: block;"> Name Here</span>
+                        <span>Applied on Dec 2, 2023 (in 2 months)</span>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- <div class="content-header-right text-md-right col-md-4 col-12 d-md-block d-none">
+                <div class="form-group breadcrumb-right">
+                    <div class="">
+                        <a class="set-heading" href="#"><img src="../../../app-assets/images/Vector (25).png" alt="">
+                            <span class=""> list</span> </a>
+                        <a class="set-heading" href="#"><img src="../../../app-assets/images/Group 369.png" alt="">
+                            <span class=""> Directory</span> </a>
+                        <a href="#"><img src="../../../app-assets/images/Group 80 (1).png" alt="">
+                            <span class="">Org Chart</span> </a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class="content-header-left col-md-8 col-12 mb-2">
+
+
+            <div class="form-group breadcrumb-right">
+                <div class="">
+                    <a class="set-heading" href="#"><img class="training-img1"
+                            src="../../../app-assets/images/candinfo.png" alt="">
+                        <span class=""> Candidate Info</span> </a>
+                    <a class="set-heading" href="#"><img class="training-img1"
+                            src="../../../app-assets/images/candnotes.png" alt="">
+                        <span class=""> Notes</span> </a>
+                    <a style="margin-left: 60px;" href="#"><img class="training-img1"
+                            src="../../../app-assets/images/candtalent.png" alt="">
+                        <span class="">Talent Pools</span> </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="content-wrapper p-0">
+            <div class="content-body col-md-12">
+                <div class="contentbody">
+                    <div class="d-flex">
+                        <div class="infotopbar col-8">
+                            <div>
+                                <span class="minus">-</span>
+                                <span class="straightline">|</span>
+                                <span class="plus">+</span>
+                            </div>
+                            <div class="dropdown" style="left: 2%;">
+                                <button class="btn dropdown-toggl2 widthbtn" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="widthspan">Full Width</span>
+                                </button>
+                                <!-- <img class="training-img1"
+                            src="../../../app-assets/images/Group216.png" alt=""> -->
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                            <span class="spanpage">Page</span>
+                            <span class="spannumber">1 of 1</span>
+                            <span class="spanarrows2">
+                                < |>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="infoview col-8 p-0">
+                            <div class="candinfo1">
+                                <h1 class="candname">JANET LEWIS</h1>
+                                <p class="candcity">Salt Lake City, UT</p>
+                                <p class="candsocial" style="color: blue;"><span>myemail.com ·
+                                    </span><span>www.linkedin.com ·
+                                    </span><span>202-555-0144</span></p>
+                            </div>
+                            <hr class="infohr">
+                            <div class="canddescrip">
+                                <p class="canddescription">Sales manager with 7+ years of experience driving
+                                    profitability through strategic growth, leading teams, and quality control. Fiercely
+                                    competitive in my approach tp acquire business, and able to handle complex
+                                    situations from a strategic and tactical perspective. Presently seeking a suitable
+                                    leadership postion with a marketing-leading, high-growth company that offers
+                                    opportunities for advancement into management.
+                                </p>
+                                <p class="candexp">Experience</p>
+                                <p class="candcomp"><span style="color: blue;">SALES MANAGER,</span> REAL ESTATE COMPANY
+                                </p>
+                                <p class="canddur">SEPTEMBER 2014 - TO PRESENT</p>
+                                <div style="margin-top: 20px;">
+                                    <ul class="explist">
+                                        <li style="margin-bottom: 10px;">Supervise and manage a sales of 7; communicate
+                                            job expectations and provide direction, support and motivation to sales team
+                                            to meet agreed tagets and KPI lines</li>
+                                        <li>Ensure that my sales team achieves the customer service levels set by the
+                                            organization, resulting in a annual increase of customer satisfaction by 5%
+                                            per year</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="candinfo">
+                                <div class="candstars">
+                                    <img src="../../../app-assets/images/Groupstars.png" alt="">
+                                </div>
+                                <div class="sidebarbtns">
+                                    <button class="sidebarbtn"><img src="../../../app-assets/images/candidatemsg.png"
+                                            alt=""></button>
+                                    <button class="sidebarbtn"><img src="../../../app-assets/images/candidatemail.png"
+                                            alt=""></button>
+                                    <button class="dropdown-toggl3 sidebarbtn" type="button" id="dropdownMenuButton6"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                                            src="../../../app-assets/images/candidatesettings.png" alt="">
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+                                        <a class="dropdown-item" href="javascript:void(0);">Option 1</a>
+                                        <a class="dropdown-item" href="javascript:void(0);">Option 2</a>
+                                        <a class="dropdown-item" href="javascript:void(0);">Option 3</a>
+                                    </div>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="input-with-dropdown candstars2">
+                                    <label style="font-family: Calibri;font-size: 13px;font-weight: 400;line-height: 13px;letter-spacing: -0.01em;text-align: left;
+                                ">Applied in 2 months:</label>
+                                    <input type="text" class="form-control1" id="todo-search" placeholder="New"
+                                        aria-label="Search..." aria-describedby="todo-search"
+                                        style="height: 32px; width: 170.64px;">
+                                    <button class="dropdownbutton1"><img src="../../../app-assets/images/Vector209.png"
+                                            alt=""></button>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="candstars">
+                                    <img src="../../../app-assets/images/candidatelink.png" alt=""><span style="margin-left: 10px;font-family: Calibri;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    line-height: 13px;
+                                    letter-spacing: -0.01em;
+                                    text-align: left;
+                                    ">Linkedin</span>
+                                </div>
+                                <div class="candstars2">
+                                    <img src="../../../app-assets/images/candidatetwitter.png" alt=""><span style="margin-left: 10px;font-family: Calibri;
+                                    font-size: 13px;
+                                    font-weight: 400;
+                                    line-height: 13px;
+                                    letter-spacing: -0.01em;
+                                    text-align: left;
+                                    ">Twitter</span>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="candstars2">
+                                    <span>Available Start Date</span><br><span>Dec 14, 2023</span>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="candstars2">
+                                    <span>Available Start Date</span><br><span>Dec 14, 2023</span>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="candstars2">
+                                    <span>Available Start Date</span><br><span>Dec 14, 2023</span>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="candstars2">
+                                    <span>Available Start Date</span><br><span>Dec 14, 2023</span>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="candstars2">
+                                    <span>Available Start Date</span><br><span>Dec 14, 2023</span>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="candstars2">
+                                    <span>Available Start Date</span><br><span>Dec 14, 2023</span>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="candstars2">
+                                    <span>Available Start Date</span><br><span>Dec 14, 2023</span>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="candstars2">
+                                    <span>Available Start Date</span><br><span>Dec 14, 2023</span>
+                                </div>
+                                <hr class="sidebarhr">
+                                <div class="candstars2">
+                                    <span>Source</span><br><span>other</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="candjob col-8">
+                            <p class="candapp">Applications Questions for this Job</p>
+                            <ol class="candquest">
+                                <li class="worklist">How did you hear about us?<br>Through my friend, Daniel Vance</li>
+                                <li class="worklist">Why do you want to work here?<br>I want to work for the best
+                                    company in
+                                    the valley.</li>
+                                <li class="worklist">What can you bring to the company?<br>Resourcefulness, drive, and a
+                                    strong work ethic. I also have many years experience in<br>
+                                    management and customer support.</li>
+                            </ol>
+                            <p>References<br>Daniel Vance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light">
+        <p class="clearfix mb-0">
+            <a href="privacy-policy.html">Privacy Policy</a> · <a href="terms-of-service.html">Terms of Service</a> · ©
+            2008–2023 Bona Fide All rights reserved.
+        </p>
+        <span id="bona-fide">BONA FIDE</span>
+    </footer>
+    <button class="btn btn-primary btn-icon scroll-top" type="button"><i data-feather="arrow-up"></i></button>
+    <!-- END: Footer-->
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../../../app-assets/vendors/js/tables/datatable/jquery.dataTables.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.responsive.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/responsive.bootstrap4.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/datatables.checkboxes.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/datatables.buttons.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/jszip.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/pdfmake.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/vfs_fonts.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/buttons.html5.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/buttons.print.min.js"></script>
+    <script src="../../../app-assets/vendors/js/tables/datatable/dataTables.rowGroup.min.js"></script>
+    <script src="../../../app-assets/vendors/js/pickers/flatpickr/flatpickr.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../app-assets/js/scripts/tables/table-datatables-basic.js"></script>
+    <!-- END: Page JS-->
+
+    <script>
+        $(window).on('load', function () {
+            if (feather) {
+                feather.replace({
+                    width: 14,
+                    height: 14
+                });
+            }
+        })
+    </script>
+</body>
+<!-- END: Body-->
+
+</html>
